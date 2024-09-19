@@ -18,3 +18,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+          ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
